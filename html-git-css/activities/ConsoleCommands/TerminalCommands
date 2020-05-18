@@ -1,0 +1,38 @@
+Changing Directory
+`cd [path/to/desired/directory]`
+
+Change to Home directory
+`cd ~`
+
+Move to One directory Up
+`cd ..`
+
+View Folders and Files in the directory
+`ls`
+
+Show the current Directory
+`pwd`
+
+Make New Files
+`touch [name of file to create]`
+
+Make New Folders
+`mkdir [name of directory to create]`
+
+Delete Files
+`rm [name of file to remove]`
+
+Delete Folders
+`rm -r [name of directory to remove]`
+
+Open file or folder (mac only)
+`open [name of file]`
+
+Open all files and folder in current directory (mac only)
+`open .`
+
+Open file or folder (PC only)
+`explorer [name of file]`
+
+Open all files and folder in current directory (PC only)
+`explorer .`
