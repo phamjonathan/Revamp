@@ -1,0 +1,52 @@
+/* First External CSS Stylesheet */
+
+/* Each of these CSS Elements is associated with an HTML element, class, or ID.
+Refresh the page to see concurrent changes on your page! */
+
+body {
+    padding: 2;
+    margin: 2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    line-height: 175%;
+    color: burlywood;
+    background: black;
+}
+header {
+    background: black;
+}
+h1 {
+    padding: 25px 5;
+    margin: 0;
+    margin-bottom: 25;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+h2 {
+    font-size: 25px;
+}
+a {
+    color: paleturquoise;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#main-bio
+#contact-info
+#bio-image {
+    float: left;
+}
+#main-bio {
+    width: 75%;
+}
+/* #contact-info {
+    width: 0%;
+} */
+#bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
