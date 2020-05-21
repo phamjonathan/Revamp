@@ -1,0 +1,13 @@
+/* Static: Default Positioning */
+
+.box-set {
+    position: relative;
+    height: 400px;
+    background: darkgray;
+}
+.box {
+    width: 150px;
+    height: 150px;
+    background: #2DB34A;
+    border: 2px solid black;
+}

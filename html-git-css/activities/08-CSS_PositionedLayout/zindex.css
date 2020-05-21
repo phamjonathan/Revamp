@@ -1,0 +1,25 @@
+/* Z-Index: Let's us position elements on top of each other */
+
+.box-set {
+    position: relative;
+    height: 400px;
+    background: darkgray;
+}
+.box {
+    position: absolute;
+    width: 150px;
+}
+.box-1 {
+    top: 10px;
+    left: 10px;
+}
+.box-2 {
+    bottom: 10px;
+    left: 70px;
+    z-index: 3x;
+}
+.box-3 {
+    top: 10px;
+    left: 130px;
+    z-index: 2;
+}
